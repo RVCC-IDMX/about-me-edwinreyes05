@@ -1,0 +1,30 @@
+body {
+    font-family:Open Sans;
+    background-color: #E6A227;
+    color: #0D4C99;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lobster";
+    font-size: 30pt;
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    color: #996300;
+    border: 5px solid #996300;
+    background-color: #4599FF;
+    text-align: center;
+    padding: 10px;
+}
+
+#hero img {
+    width: 300px;
+}
+
+#bio {
+    text-align: center;
+}
