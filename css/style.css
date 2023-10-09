@@ -6,7 +6,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Lobster";
-    font-size: 30pt;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
 }
 
 header {
@@ -27,4 +30,19 @@ header {
 
 #bio {
     text-align: center;
+
 }
+
+#hobbies ul li:nth-child(odd) {
+
+    color: white;
+    font-family: "Lobster", cursive;
+
+}
+
+#hobbies {
+
+    text-align: center;
+    font-size: 25px;
+}
+
