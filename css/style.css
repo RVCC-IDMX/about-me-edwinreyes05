@@ -65,3 +65,35 @@ header {
     font-size: 25px;
     
 }
+
+#lit {
+
+    border: 5px solid white;
+    margin-top: 2rem;
+    
+}
+
+#lit div {
+
+    padding: 1rem;
+    max-width: 40rem;
+    margin: 0 auto;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: brown;
+    text-decoration-thickness: 5px;
+    text-decoration-skip-ink: none;
+
+}
+
+#lit h2 {
+
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color: brown;
+    text-decoration-thickness: 5px;
+    text-decoration-skip-ink: none;
+}
+
+
+
