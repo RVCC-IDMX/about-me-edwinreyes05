@@ -157,6 +157,25 @@ figure {
 
 }
 
+/* Video Section */
+
+#video {
+    margin: 0 auto;
+    text-align: center;
+    transform: scale(1);
+    border: 3px solid white;
+    box-shadow: 0 0 5px black;
+}
+
+#video h2 {
+    font-size: 3rem;
+}
+
+#video p{
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
 
 
 
