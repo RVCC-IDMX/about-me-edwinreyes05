@@ -1,90 +1,79 @@
 body {
-    font-family:Open Sans;
+    font-family: Open Sans;
     background-color: #E6A227;
     color: #0D4C99;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Lobster";
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Lobster;
     text-align: center;
-}
-h1 {
+  }
+  
+  h1 {
     font-size: 40px;
-}
-
-header {
+  }
+  
+  header {
     text-align: center;
-}
-
-h2 {
+  }
+  
+  h2 {
     margin: .1mm;
-}
-
-#hero, footer {
+  }
+  
+  #hero, footer {
     color: #996300;
     border: 5px solid #996300;
     background-color: #4599FF;
     text-align: center;
     padding: 10px;
-}
-
-#hero img {
+  }
+  
+  #hero img {
     width: 300px;
-}
-
-#bio {
+  }
+  
+  #bio {
     text-align: center;
-
-}
-
-#hobbies ul li:nth-child(odd) {
-
+  }
+  
+  #hobbies ul li:nth-child(odd) {
     color: white;
-    font-family: "Lobster", cursive;
-
-}
-
-#hobbies {
-
+    font-family: Lobster, cursive;
+  }
+  
+  #hobbies {
     text-align: center;
     font-size: 25px;
-}
-
-section#hobbies {
+  }
+  
+  section#hobbies {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-#gallery {
-
+  }
+  
+  #gallery {
     border: 5px solid white;
     font-size: 30px;
-    
-}
-
-#gallery img{
-
+  }
+  
+  #gallery img {
     max-width: 100%;
-}
-
-#gallery figure {
-
+  }
+  
+  #gallery figure {
     text-align: center;
     color: white;
     font-size: 25px;
-    
-}
-
-#lit {
-
+  }
+  
+  #lit {
     border: 5px solid white;
     margin-top: 2rem;
-    
-}
-
-#lit div {
-
+  }
+  
+  #lit div {
     padding: 1rem;
     max-width: 40rem;
     margin: 0 auto;
@@ -93,95 +82,137 @@ section#hobbies {
     text-decoration-color: brown;
     text-decoration-thickness: 5px;
     text-decoration-skip-ink: none;
-
-}
-
-#lit h2 {
-
+  }
+  
+  #lit h2 {
     font-size: 50px;
     text-decoration: underline;
     text-decoration-color: brown;
     text-decoration-thickness: 5px;
     text-decoration-skip-ink: none;
-}
-
-/* tablet size */
-@media screen and (min-width: 60em) {
-
-figure {
-
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-}
-
-figcaption {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-}
-
-figure img {
-    width: 100%;
-}
-
-#lit div {
-   max-width: 100%;
-    columns: 20rems;
-}
-
-}
-
-/* large screen size */
-
-@media  screen and (min-width: 100em) {
-    
-#gallery {
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-hr {
-    display: none;
-}
-
-#gallery h2 {
-    grid-column: 1/-1;
-}
-
-figure {
-
-    display: block;
-}
-
-}
-
-/* Video Section */
-
-#video {
+  }
+  
+  /* tablet size */
+  @media screen and (min-width: 60em) {
+    figure {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+  
+    figcaption {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+    }
+  
+    figure img {
+      width: 100%;
+    }
+  
+    #lit div {
+      max-width: 100%;
+      columns: 20rems;
+    }
+  }
+  
+  /* large screen size */
+  @media screen and (min-width: 100em) {
+    #gallery {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+    hr {
+      display: none;
+    }
+  
+    #gallery h2 {
+      grid-column: 1/-1;
+    }
+  
+    figure {
+      display: block;
+    }
+  }
+  
+  /* Video Section */
+  #video {
     margin: 0 auto;
     text-align: center;
     transform: scale(1);
     border: 3px solid white;
     box-shadow: 0 0 5px black;
-}
-
-#video h2 {
+    
+  }
+  
+  #video h2 {
     font-size: 3rem;
-}
-
-#video p{
+  }
+  
+  #video p {
     padding: 1rem;
     margin: 1rem 0;
     font-size: 1.5rem;
-}
+  }
+  
+  /* Contact Form */
+  #formElements {
+    display: grid;
+    row-gap: .5em;
+  }
+  
+  #contact {
+    padding: 1rem;
+    max-width: 400px;
+    margin: 2rem auto;
+  }
+  
+  fieldset {
+    background-color: #E6A227;
+    color: white;
+    border: 2px solid white;
+    margin-top: 1em;
+    margin-bottom: 1rem;
+    border-radius: 2em;
+  }
+  
+  legend {
+    background-color: #4599FF;
+    color: white;
+    font-size: 1em;
+  }
+  
+  #contact input, #contact textarea, #contact select, #contact button {
+    padding: .5em;
+    font-size: 1em;
+    border: 1px solid #0D4C99;
+    border-radius: 5px;
+  }
+  
+  #contact ul {
+    list-style: none;
+    padding: 0px;
+  }
+  
+  #contact li {
+    margin: 1em;
+  }
+  
+  #contact button {
+    background-color: #4599FF;
+    color: white;
+    border: 1px solid #0D4C99;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
 
-/* Contact Form */
+  #contact h2 {
+    font-size: 2em;
+  }
+  
 
-#formElements {
-    display:grid;
-}
 
 
 
