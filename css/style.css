@@ -177,6 +177,11 @@ figure {
     font-size: 1.5rem;
 }
 
+/* Contact Form */
+
+#formElements {
+    display:grid;
+}
 
 
 
