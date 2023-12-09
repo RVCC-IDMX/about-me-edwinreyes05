@@ -47,13 +47,9 @@ These carefully chosen colors work together to create a harmonious and visually 
 Used the following sources:
 
 [W3Schools](https://www.w3schools.com/)
-Class notes from Professor Caruso
+
 
 ## License
-
-@2023 Edwin Reyes-Flores
-
----
 
 Explore my About Me project, and I welcome any feedback or collaboration opportunities.
 
