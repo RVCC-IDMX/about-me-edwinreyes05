@@ -1,7 +1,7 @@
 body {
     font-family: Open Sans;
-    background-color: #E6A227;
-    color: #0D4C99;
+    background-color: #70B5E3;
+    color: #181243;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -22,9 +22,9 @@ body {
   }
   
   #hero, footer {
-    color: #996300;
+    color: #000000;
     border: 5px solid #996300;
-    background-color: #4599FF;
+    background-color: #A2AAD8;
     text-align: center;
     padding: 10px;
   }
@@ -38,7 +38,7 @@ body {
   }
   
   #hobbies ul li:nth-child(odd) {
-    color: white;
+    color: 000080;
     font-family: Lobster, cursive;
   }
   
@@ -64,7 +64,7 @@ body {
   
   #gallery figure {
     text-align: center;
-    color: white;
+    color: 000080;
     font-size: 25px;
   }
   
@@ -170,7 +170,7 @@ body {
   
   fieldset {
     background-color: #E6A227;
-    color: white;
+    color: 000080;
     border: 2px solid white;
     margin-top: 1em;
     margin-bottom: 1rem;
@@ -179,7 +179,7 @@ body {
   
   legend {
     background-color: #4599FF;
-    color: white;
+    color: 000080;
     font-size: 1em;
   }
   
@@ -200,7 +200,7 @@ body {
   }
   
   #contact button {
-    background-color: #4599FF;
+    background-color: #0001D2;
     color: white;
     border: 1px solid #0D4C99;
     border-radius: 5px;
