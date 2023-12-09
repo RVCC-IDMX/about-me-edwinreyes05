@@ -1,216 +1,219 @@
+/* style.css */
+
+/* Global Styles */
 body {
-    font-family: Open Sans;
-    background-color: #70B5E3;
-    color: #181243;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: Lobster;
-    text-align: center;
-  }
-  
-  h1 {
-    font-size: 40px;
-  }
-  
-  header {
-    text-align: center;
-  }
-  
-  h2 {
-    margin: .1mm;
-  }
-  
-  #hero, footer {
-    color: #000000;
-    border: 5px solid #996300;
-    background-color: #A2AAD8;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  #hero img {
-    width: 300px;
-  }
-  
-  #bio {
-    text-align: center;
-  }
-  
-  #hobbies ul li:nth-child(odd) {
-    color: 000080;
-    font-family: Lobster, cursive;
-  }
-  
-  #hobbies {
-    text-align: center;
-    font-size: 25px;
-  }
-  
-  section#hobbies {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  #gallery {
-    border: 5px solid white;
-    font-size: 30px;
-  }
-  
-  #gallery img {
-    max-width: 100%;
-  }
-  
-  #gallery figure {
-    text-align: center;
-    color: 000080;
-    font-size: 25px;
-  }
-  
-  #lit {
-    border: 5px solid white;
-    margin-top: 2rem;
-  }
-  
-  #lit div {
-    padding: 1rem;
-    max-width: 40rem;
-    margin: 0 auto;
-    font-size: 20px;
-    text-decoration: underline;
-    text-decoration-color: brown;
-    text-decoration-thickness: 5px;
-    text-decoration-skip-ink: none;
-  }
-  
-  #lit h2 {
-    font-size: 50px;
-    text-decoration: underline;
-    text-decoration-color: brown;
-    text-decoration-thickness: 5px;
-    text-decoration-skip-ink: none;
-  }
-  
-  /* tablet size */
-  @media screen and (min-width: 60em) {
-    figure {
+  font-family: Open Sans;
+  background-color: #70B5E3;
+  color: #181243;
+}
+
+/* Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Lobster;
+  text-align: center;
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+}
+
+/* Hero Section Styles */
+#hero, footer {
+  color: #000000;
+  border: 5px solid #996300;
+  background-color: #A2AAD8;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Hero Image Styles */
+#hero img {
+  width: 300px;
+}
+
+/* Bio Section Styles */
+#bio {
+  text-align: center;
+}
+
+/* Hobbies Section Styles */
+#hobbies ul li:nth-child(odd) {
+  color: 000080;
+  font-family: Lobster, cursive;
+}
+
+#hobbies {
+  text-align: center;
+  font-size: 25px;
+}
+
+section#hobbies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Gallery Section Styles */
+#gallery {
+  border: 5px solid white;
+  font-size: 30px;
+}
+
+#gallery img {
+  max-width: 100%;
+}
+
+#gallery figure {
+  text-align: center;
+  color: 000080;
+  font-size: 25px;
+}
+
+/* Blog Section Styles */
+#lit {
+  border: 5px solid white;
+  margin-top: 2rem;
+}
+
+#lit div {
+  padding: 1rem;
+  max-width: 40rem;
+  margin: 0 auto;
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-color: brown;
+  text-decoration-thickness: 5px;
+  text-decoration-skip-ink: none;
+}
+
+#lit h2 {
+  font-size: 50px;
+  text-decoration: underline;
+  text-decoration-color: brown;
+  text-decoration-thickness: 5px;
+  text-decoration-skip-ink: none;
+}
+
+/* Tablet Size Styles */
+@media screen and (min-width: 60em) {
+  figure {
       display: grid;
       grid-template-columns: 2fr 1fr;
-    }
-  
-    figcaption {
+  }
+
+  figcaption {
       display: flex;
       justify-content: center;
       align-items: center;
       font-size: 2rem;
-    }
-  
-    figure img {
-      width: 100%;
-    }
-  
-    #lit div {
-      max-width: 100%;
-      columns: 20rems;
-    }
-  }
-  
-  /* large screen size */
-  @media screen and (min-width: 100em) {
-    #gallery {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-  
-    hr {
-      display: none;
-    }
-  
-    #gallery h2 {
-      grid-column: 1/-1;
-    }
-  
-    figure {
-      display: block;
-    }
-  }
-  
-  /* Video Section */
-  #video {
-    margin: 0 auto;
-    text-align: center;
-    transform: scale(1);
-    border: 3px solid white;
-    box-shadow: 0 0 5px black;
-    
-  }
-  
-  #video h2 {
-    font-size: 3rem;
-  }
-  
-  #video p {
-    padding: 1rem;
-    margin: 1rem 0;
-    font-size: 1.5rem;
-  }
-  
-  /* Contact Form */
-  #formElements {
-    display: grid;
-    row-gap: .5em;
-  }
-  
-  #contact {
-    padding: 1rem;
-    max-width: 400px;
-    margin: 2rem auto;
-  }
-  
-  fieldset {
-    background-color: #E6A227;
-    color: 000080;
-    border: 2px solid white;
-    margin-top: 1em;
-    margin-bottom: 1rem;
-    border-radius: 2em;
-  }
-  
-  legend {
-    background-color: #4599FF;
-    color: 000080;
-    font-size: 1em;
-  }
-  
-  #contact input, #contact textarea, #contact select, #contact button {
-    padding: .5em;
-    font-size: 1em;
-    border: 1px solid #0D4C99;
-    border-radius: 5px;
-  }
-  
-  #contact ul {
-    list-style: none;
-    padding: 0px;
-  }
-  
-  #contact li {
-    margin: 1em;
-  }
-  
-  #contact button {
-    background-color: #0001D2;
-    color: white;
-    border: 1px solid #0D4C99;
-    border-radius: 5px;
-    font-size: 1.2em;
-    cursor: pointer;
   }
 
-  #contact h2 {
-    font-size: 2em;
+  figure img {
+      width: 100%;
   }
+
+  #lit div {
+      max-width: 100%;
+      columns: 20rems;
+  }
+}
+
+/* Large Screen Size Styles */
+@media screen and (min-width: 100em) {
+  #gallery {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  hr {
+      display: none;
+  }
+
+  #gallery h2 {
+      grid-column: 1/-1;
+  }
+
+  figure {
+      display: block;
+  }
+}
+
+/* Video Section Styles */
+#video {
+  margin: 0 auto;
+  text-align: center;
+  transform: scale(1);
+  border: 3px solid white;
+  box-shadow: 0 0 5px black;
+}
+
+#video h2 {
+  font-size: 3rem;
+}
+
+#video p {
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+/* Contact Form Styles */
+#formElements {
+  display: grid;
+  row-gap: .5em;
+}
+
+#contact {
+  padding: 1rem;
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+fieldset {
+  background-color: #E6A227;
+  color: 000080;
+  border: 2px solid white;
+  margin-top: 1em;
+  margin-bottom: 1rem;
+  border-radius: 2em;
+}
+
+legend {
+  background-color: #4599FF;
+  color: 000080;
+  font-size: 1em;
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+  padding: .5em;
+  font-size: 1em;
+  border: 1px solid #0D4C99;
+  border-radius: 5px;
+}
+
+#contact ul {
+  list-style: none;
+  padding: 0px;
+}
+
+#contact li {
+  margin: 1em;
+}
+
+#contact button {
+  background-color: #0001D2;
+  color: white;
+  border: 1px solid #0D4C99;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+#contact h2 {
+  font-size: 2em;
+}
+
   
 
 

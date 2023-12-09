@@ -13,6 +13,9 @@ Welcome to my personal website! This project is a showcase of my skills and inte
 - **Netlify:** Ensuring continuous deployment and hosting for constant accessibility.
 - **Markdown:** Providing clear and concise documentation for better understanding.
 
+## Logo
+![Head Logo](img/lily%20script.png)
+
 ## Color Scheme
 
 The color scheme for my About Me webpage has been thoughtfully chosen to create an aesthetically pleasing and cohesive design. Here are the key colors used:
