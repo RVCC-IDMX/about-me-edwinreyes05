@@ -50,7 +50,6 @@ The color scheme for my About Me webpage has been thoughtfully chosen to create 
 - **Blog Text Color:** `#181243`
 - **Blog Link Color:** `#000080`
 
-
 These carefully chosen colors work together to create a harmonious and visually appealing user interface.
 
 ## Blog Section
@@ -64,14 +63,16 @@ The blog section of my website is dedicated to exploring various topics related 
 Delve into the heart of CSS animation, equipping yourself with the knowledge and inspiration to bring your online creations to life.
 
 ## Citations
+
 Used the following sources:
 
 - [W3Schools](https://www.w3schools.com/)
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
 - [CSS-Tricks](https://css-tricks.com/almanac/properties/a/animation/)
 
-
-## License
+## Contact Information
 
 Explore my About Me project, and I welcome any feedback or collaboration opportunities.
 
+**Connect with me:**
+- GitHub: [edwinreyes05](https://github.com/edwinreyes05)
