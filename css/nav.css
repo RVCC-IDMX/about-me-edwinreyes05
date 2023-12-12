@@ -1,101 +1,164 @@
 /* make scrolling smooth */
-
 html {
     scroll-behavior: smooth;
 }
 
-/* 
- get rid of padding & sizing on body so
- header is at top
-*/
-
+/* get rid of padding & sizing on body so header is at the top */
 body {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
-/* add some padding back to rest of page */
-
-main{
+/* add some padding back to the rest of the page */
+main {
     padding: 2vw;
+    padding-top: 130px;
 }
-
 
 /* navbar */
-
-.navbar{
-    background-color: gainsboro;
-    color: black;
+.navbar {
     display: flex;
-    flex-direction: column;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; 
+    color: white; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     padding: 1rem;
+    z-index: 2;
 }
 
 /* logo */
-
-.logo{
+.logo {
     display: flex;
     align-items: center;
 }
 
-.logo img{
-    height: 6vw;
-    width: 6vw;
+.logo-img {
+    height: 100px; /* Adjusted logo height */
 }
 
-.logo h1{
-    font-size: 1.2em;
+.logo-title {
+    margin-left: 0.2rem; 
+    font-size: 1.5rem;
 }
 
-/* navigation list */
+/* Hamburger menu styles */
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
 
-.navbar-links li{
-    list-style: none;
+.hamburger span {
     display: block;
-    padding: 0.5em 0; 
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 5px 0; /* Adjusted margin */
+    transition: all 0.3s linear;
 }
 
+.nav-toggle {
+    display: none;
+}
 
+.navbar-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #333;
+    top: 60px; 
+    left: 0;
+    width: 100%;
+}
 
-/*  
- style all a tags in header 
- and then on hover
-*/
+/* Navbar links styles */
+.navbar-links ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: space-around; /* Adjusted alignment */
+}
 
-.navbar-links a{
-    color: black;
-    background-color: gainsboro;
-    font-size: 1.8rem;
-    padding: 1rem 1.05rem;
-    letter-spacing: 2px;
+.navbar-links li {
+    margin: 0;
+}
+
+.navbar-links a {
     text-decoration: none;
-    display: inline-block;
+    color: white;
+    padding: 1rem;
+    transition: color 0.3s ease; /* Smooth color transition */
 }
 
-.navbar-links a:hover,
-.navbar-links a:focus{
-    filter: invert(1);
-    border-radius: 10px;
-    outline: none;
+/* Change color on hover */
+.navbar-links a:hover {
+    color: #ddd;
 }
 
-/* 
-media query for non-mobile nav bar
-min-width set to width of nav elements 
-such that no text wraps 
-*/
-
-@media screen and (min-width: 60rem) {
-    .navbar{
-        flex-direction: row;
-        justify-content: space-between;
+/* media query for non-mobile nav bar */
+@media (max-width: 767px) {
+    .hamburger {
+        display: block;
     }
 
-    .navbar ul{
+    .navbar-links {
+        display: none;
+        top: 60px;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .nav-toggle:checked + .hamburger + .navbar-links {
         display: flex;
-        justify-content: space-between;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        padding-top: 0;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    .navbar-links {
+        display: flex;
+        position: relative;
+        width: auto;
+        background-color: transparent; /* Updated background color */
+        top: initial;
+        justify-content: flex-end;
+    }
+
+    .navbar-links ul {
+        flex-direction: row;
+    }
+
+    .navbar-links li {
+        margin: 0;
+    }
+
+    .navbar-links a {
+        padding: 1rem;
+        color: white;
+        transition: none; /* Removed transition on desktop */
+    }
+
+    .hamburger,
+    .nav-toggle {
+        display: none;
     }
 }

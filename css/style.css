@@ -110,7 +110,7 @@ section#hobbies {
 
 #lit h2 {
   font-size: 2.5rem;
-  color: #000080; /* Adjust color as needed */
+  color: #000080; 
   text-align: center;
 }
 
@@ -121,12 +121,12 @@ section#hobbies {
 #lit p {
   font-size: 1.2rem;
   line-height: 1.6;
-  color: #181243; /* Adjust color as needed */
+  color: #181243; 
 }
 
 #lit h3 {
   font-size: 1.8rem;
-  color: black; /* Adjust color as needed */
+  color: black; 
   margin-top: 1.5rem;
 }
 
@@ -138,11 +138,11 @@ section#hobbies {
 #lit li {
   font-size: 1.2rem;
   line-height: 1.6;
-  color: #000080; /* Adjust color as needed */
+  color: #000080; 
 }
 
 #lit a {
-  color: #000080; /* Adjust color as needed */
+  color: #000080; 
   text-decoration: underline;
 }
 
