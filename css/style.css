@@ -35,6 +35,7 @@ header {
 /* Bio Section Styles */
 #bio {
   text-align: center;
+  font-size: 1.5rem;
 }
 
 /* Hobbies Section Styles */
@@ -45,7 +46,8 @@ header {
 
 #hobbies {
   text-align: center;
-  font-size: 25px;
+  font-size: 1.8rem;
+
 }
 
 section#hobbies {
@@ -54,20 +56,50 @@ section#hobbies {
   align-items: center;
 }
 
+#PictureofMe {
+  text-align: center;
+  margin-top: 2rem;
+
+}
+
+#PictureofMe figure {
+  display: inline-block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+#PictureofMe img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+
 /* Gallery Section Styles */
 #gallery {
   border: 5px solid white;
   font-size: 30px;
 }
 
-#gallery img {
+#gallery figure img {
   max-width: 100%;
+  transition: transform 0.3s ease-in-out;
 }
 
 #gallery figure {
   text-align: center;
   color: 000080;
   font-size: 25px;
+  position: relative;
+}
+
+#gallery figure:hover img{
+  transform: scale(1.1);
+}
+
+#gallery figcaption {
+  font-size: 20px;
+  padding: 20px;
+  margin: 5px;
 }
 
 /* Blog Section Styles */
@@ -107,10 +139,6 @@ section#hobbies {
       justify-content: center;
       align-items: center;
       font-size: 2rem;
-  }
-
-  figure img {
-      width: 100%;
   }
 
   #lit div {
