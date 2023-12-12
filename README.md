@@ -57,8 +57,9 @@ These carefully chosen colors work together to create a harmonious and visually 
 
 The blog section of my website is dedicated to exploring various topics related to web development. Check out the insightful articles and enhance your knowledge in the ever-evolving world of technology.
 
-#Blog Article
-1. **Animate Your Web Creations: A Deep Dive into CSS Animation**
+## Blog Article
+
+1. **A Deep Dive into CSS Animation**
 
 Delve into the heart of CSS animation, equipping yourself with the knowledge and inspiration to bring your online creations to life.
 
