@@ -44,12 +44,30 @@ The color scheme for my About Me webpage has been thoughtfully chosen to create 
 - **RGB Values:** `0, 0, 0`
 - **Description:** Rich black color to accentuate specific elements for visual interest.
 
+### Blog Section Color
+
+- **Blog Heading Color:** `#000080`
+- **Blog Text Color:** `#181243`
+- **Blog Link Color:** `#000080`
+
+
 These carefully chosen colors work together to create a harmonious and visually appealing user interface.
+
+## Blog Section
+
+The blog section of my website is dedicated to exploring various topics related to web development. Check out the insightful articles and enhance your knowledge in the ever-evolving world of technology.
+
+#Blog Article
+1. **Animate Your Web Creations: A Deep Dive into CSS Animation**
+
+Delve into the heart of CSS animation, equipping yourself with the knowledge and inspiration to bring your online creations to life.
 
 ## Citations
 Used the following sources:
 
-[W3Schools](https://www.w3schools.com/)
+- [W3Schools](https://www.w3schools.com/)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
+- [CSS-Tricks](https://css-tricks.com/almanac/properties/a/animation/)
 
 
 ## License
